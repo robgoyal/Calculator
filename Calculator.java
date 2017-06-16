@@ -190,7 +190,9 @@ public class Calculator extends JFrame implements ActionListener{
 
             // Check for division by zero
             if (val == 0.0) {
-                System.out.println("DIVISION BY ZERO");
+
+                // Show alert indicating division by zero
+                JOptionPane.showMessageDialog(null, "Division By Zero");
                 System.exit(0);
             }
             else val = values.pop() / val;
