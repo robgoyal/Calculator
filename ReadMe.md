@@ -14,4 +14,8 @@ The algorithm uses two stacks, one for operators and one for values. Each charac
 
 This application uses the Swing GUI to display buttons and two text fields. One text field displays the current expression and the second text field displays the last result. There is a button included that allows the user to also include the previous result in the current expression. 
 
+![Sample Calulation](img/calculation.png)
+
 The equals button evalutes the current expression and displays the result. The only error checking that currently occurs is a divide by zero. This application also expects users to maintain brackets around the expressions they're looking to evaluate. In other words, it'll only follow BEDMAS if the user chooses to add brackets. I did make it so that the user is able to forgo one pair of brackets. So instead of ((5+4) * 3), it can be (5+4)*3 just in case the user forgets a pair of brackets.
+
+![Division By Zero](img/divisionbyzero.png)
